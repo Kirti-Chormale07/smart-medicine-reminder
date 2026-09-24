@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.mediremind.util.SmsApiTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-23T17:42:40.987Z" hostname="LAPTOP-ARPM787O" time="0.044">
+  <properties/>
+  <testcase name="formattedNumber_isCleaned" classname="com.example.mediremind.util.SmsApiTest" time="0.009"/>
+  <testcase name="tenDigitIndianNumber_getsCountryCode" classname="com.example.mediremind.util.SmsApiTest" time="0.0"/>
+  <testcase name="twilioConfig_requiresAllFields" classname="com.example.mediremind.util.SmsApiTest" time="0.0"/>
+  <testcase name="formEncode_handlesUnicodeAndSpaces" classname="com.example.mediremind.util.SmsApiTest" time="0.033"/>
+  <testcase name="leadingZeroIndianNumber_getsCountryCode" classname="com.example.mediremind.util.SmsApiTest" time="0.0"/>
+  <testcase name="internationalDialPrefix_zeroZero" classname="com.example.mediremind.util.SmsApiTest" time="0.001"/>
+  <testcase name="alreadyE164_unchanged" classname="com.example.mediremind.util.SmsApiTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

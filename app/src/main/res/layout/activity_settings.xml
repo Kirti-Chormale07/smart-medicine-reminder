@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textColor="@color/on_surface"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/FieldLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_patient" />
+
+        <EditText
+            android:id="@+id/edtPatient"
+            style="@style/BigField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_patient"
+            android:inputType="textPersonName" />
+
+        <TextView
+            style="@style/FieldLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/lbl_guardian" />
+
+        <EditText
+            android:id="@+id/edtGuardian"
+            style="@style/BigField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_guardian"
+            android:inputType="phone" />
+
+        <TextView
+            style="@style/FieldLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/sms_api_header" />
+
+        <CheckBox
+            android:id="@+id/chkTwilio"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:checked="false"
+            android:text="@string/chk_twilio"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtSid"
+            style="@style/BigField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_sid"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtToken"
+            style="@style/BigField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_token"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtFrom"
+            style="@style/BigField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_from"
+            android:inputType="phone" />
+
+        <TextView
+            style="@style/FieldLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_language" />
+
+        <RadioGroup
+            android:id="@+id/radLang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radEn"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/lang_en"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radHi"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/lang_hi"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radMr"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/lang_mr"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radGu"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/lang_gu"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/FieldLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_grace" />
+
+        <Spinner
+            android:id="@+id/spnGrace"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+        <TextView
+            style="@style/FieldLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/meal_times_header" />
+
+        <Button
+            android:id="@+id/btnBreakfast"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnLunch"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSnack"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnDinner"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAlarmPerm"
+            style="@style/BigButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/alarm_permission_btn" />
+
+        <TextView
+            android:id="@+id/txtAlarmHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alarm_permission_hint"
+            android:textColor="#5F6368"
+            android:textSize="15sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBattery"
+            style="@style/BigButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/battery_btn" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_hint"
+            android:textColor="#5F6368"
+            android:textSize="15sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            style="@style/BigButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/btn_save_settings" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- off_before_30/15 and off_after_15/30 are plain labels for the offset spinner;
+     rel_before/rel_after are the spoken/displayed labels that include the meal. -->
+<resources>
+    <string name="app_name">MediRemind</string>
+
+    <string name="greeting">नमस्ते, %1$s</string>
+    <string name="friend">मित्र</string>
+    <string name="btn_add_medicine">+ दवा जोड़ें</string>
+    <string name="btn_settings">⚙ सेटिंग्स</string>
+    <string name="btn_report">📊 रिपोर्ट</string>
+    <string name="btn_sos">🆘 मदद</string>
+    <string name="today_doses">आज की दवाइयाँ</string>
+    <string name="empty_no_meds">अभी कोई दवा नहीं है।\nशुरू करने के लिए “+ दवा जोड़ें” दबाएँ।</string>
+    <string name="status_taken">ले ली ✓</string>
+    <string name="status_missed">छूट गई ✗</string>
+    <string name="status_pending">प्रतीक्षा में…</string>
+    <string name="status_snoozed">थोड़ी देर बाद</string>
+    <string name="stock_left">बची हुई: %1$d</string>
+    <string name="low_stock">⚠ सिर्फ %1$d बची हैं – जल्दी भरवाएँ!</string>
+    <string name="week_adherence">पिछले 7 दिनों में ली गई खुराक: %1$d%%</string>
+    <string name="missed_banner">खुराक छूट गई – परिजन को सूचित किया गया ✉</string>
+
+    <string name="add_title">दवा जोड़ें</string>
+    <string name="edit_title">दवा बदलें</string>
+    <string name="lbl_med_name">दवा का नाम</string>
+    <string name="hint_med_name">जैसे Metformin, Amlodipine</string>
+    <string name="lbl_dose">हर बार कितनी</string>
+    <string name="hint_dose">जैसे 1 गोली, 5 ml</string>
+    <string name="lbl_photo">दवा की तस्वीर (कैसी दिखती है)</string>
+    <string name="btn_camera">📷 कैमरा</string>
+    <string name="btn_gallery">🖼 गैलरी</string>
+    <string name="lbl_times">याद दिलाने का समय</string>
+    <string name="btn_add_time">+ और समय जोड़ें</string>
+    <string name="btn_pick_time">🕐 %1$s</string>
+    <string name="btn_time_auto">🕐 अपने आप</string>
+    <string name="meal_fixed">निश्चित समय</string>
+    <string name="meal_breakfast">नाश्ता</string>
+    <string name="meal_lunch">दोपहर का खाना</string>
+    <string name="meal_snack">शाम की चाय</string>
+    <string name="meal_dinner">रात का खाना</string>
+    <string name="off_at_meal">भोजन के साथ</string>
+    <string name="off_before_30">30 मिनट पहले</string>
+    <string name="off_before_15">15 मिनट पहले</string>
+    <string name="off_after_15">15 मिनट बाद</string>
+    <string name="off_after_30">30 मिनट बाद</string>
+    <string name="off_after_1h">1 घंटा बाद</string>
+    <string name="rel_at_meal">%1$s के समय</string>
+    <string name="rel_before">%2$s से %1$d मिनट पहले</string>
+    <string name="rel_after">%2$s के %1$d मिनट बाद</string>
+    <string name="rel_after_1h">%1$s के 1 घंटे बाद</string>
+    <string name="lbl_stock">कितनी खुराक बची हैं</string>
+    <string name="hint_stock">जैसे 30</string>
+    <string name="btn_save">दवा सहेजें</string>
+    <string name="btn_delete">🗑 यह दवा हटाएँ</string>
+    <string name="err_name">कृपया दवा का नाम लिखें</string>
+    <string name="err_time">कम से कम एक समय जोड़ें</string>
+    <string name="saved">दवा सहेजी गई ✓</string>
+    <string name="deleted">दवा हटा दी गई</string>
+    <string name="delete_title">यह दवा हटाएँ?</string>
+    <string name="delete_msg">इसके अलार्म बंद हो जाएँगे।</string>
+
+    <string name="sms_api_header">SMS सेवा (Twilio – बिना SIM के चलती है)</string>
+    <string name="chk_twilio">परिजन को इंटरनेट से SMS भेजें (Twilio)</string>
+    <string name="hint_sid">Twilio Account SID</string>
+    <string name="hint_token">Twilio Auth Token</string>
+    <string name="hint_from">Twilio नंबर, जैसे +15551234567</string>
+    <string name="err_twilio">तीनों Twilio फ़ील्ड भरें, या इसे बंद करें</string>
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="lbl_patient">बुज़ुर्ग का नाम</string>
+    <string name="hint_patient">जैसे रमेश</string>
+    <string name="lbl_guardian">परिजन का मोबाइल नंबर</string>
+    <string name="hint_guardian">जैसे 9876543210</string>
+    <string name="err_phone">कृपया सही नंबर लिखें</string>
+    <string name="lbl_language">ऐप की भाषा</string>
+    <string name="lang_en">English</string>
+    <string name="lang_hi">हिंदी (Hindi)</string>
+    <string name="lang_mr">मराठी (Marathi)</string>
+    <string name="lang_gu">ગુજરાતી (Gujarati)</string>
+    <string name="lbl_grace">जवाब न मिले तो इतनी देर बाद परिजन को SMS</string>
+    <string name="grace_fmt">%1$d मिनट</string>
+    <string name="meal_times_header">भोजन का समय</string>
+    <string name="lbl_breakfast_time">नाश्ता</string>
+    <string name="lbl_lunch_time">दोपहर का खाना</string>
+    <string name="lbl_snack_time">शाम की चाय</string>
+    <string name="lbl_dinner_time">रात का खाना</string>
+    <string name="btn_save_settings">सेटिंग्स सहेजें</string>
+    <string name="settings_saved">सेटिंग्स सहेजी गईं ✓</string>
+    <string name="alarm_permission_btn">अलार्म की अनुमति दें</string>
+    <string name="alarm_permission_hint">कृपया “अलार्म और रिमाइंडर” की अनुमति दें ताकि दवा कभी देर से न याद दिलाई जाए।</string>
+    <string name="battery_btn">बैकग्राउंड की अनुमति दें</string>
+    <string name="battery_hint">अलार्म हमेशा बजने के लिए इस ऐप की बैटरी सेविंग बंद करें।</string>
+
+    <string name="rem_title">💊 दवा का समय!</string>
+    <string name="rem_when">%1$s बजे तय हुआ था</string>
+    <string name="rem_took">✅ मैंने ले ली</string>
+    <string name="rem_snooze">⏰ 10 मिनट बाद याद दिलाएँ</string>
+    <string name="rem_skip">❌ मैं नहीं लूँगा/लूँगी</string>
+    <string name="tts_prompt">%1$s! अब %2$s लेने का समय है, %3$s।</string>
+    <string name="tts_thanks">बहुत बढ़िया! दर्ज कर लिया।</string>
+    <string name="skip_dialog_title">परिजन को बताएँ?</string>
+    <string name="skip_dialog_msg">परिजन को SMS चला जाएगा कि यह खुराक छोड़ दी गई।</string>
+    <string name="btn_inform">हाँ, बताएँ</string>
+
+    <string name="notif_channel_name">दवा के अलार्म</string>
+    <string name="notif_channel_desc">दवा लेने का समय बताने के लिए</string>
+    <string name="notif_alert_name">छूटी हुई खुराक</string>
+    <string name="notif_alert_desc">खुराक छूट जाने की सूचना</string>
+    <string name="notif_title">%1$s लेने का समय है!</string>
+    <string name="notif_body">%1$s • %2$s</string>
+    <string name="action_took">✅ ले ली</string>
+    <string name="action_snooze">⏰ 10 मिनट</string>
+    <string name="notif_missed_title">खुराक छूट गई</string>
+    <string name="notif_missed_body">%1$s नहीं ली गई। परिजन को बताया गया ✉</string>
+
+    <string name="sos_title">🆘 आपातकालीन मदद</string>
+    <string name="sos_msg">क्या चाहिए?</string>
+    <string name="sos_call">📞 परिजन को कॉल करें</string>
+    <string name="sos_sms">✉ SOS संदेश भेजें</string>
+    <string name="sos_sent">SOS संदेश भेजा गया ✓</string>
+    <string name="sos_no_guardian">पहले सेटिंग्स में परिजन का नंबर जोड़ें</string>
+
+    <string name="report_title">साप्ताहिक रिपोर्ट</string>
+    <string name="report_overall">ली गई खुराक: %1$d%%</string>
+    <string name="day_line">%1$s — %2$d ली, %3$d छूटी</string>
+    <string name="no_history">अभी कोई इतिहास नहीं</string>
+    <string name="guardian_informed">परिजन को बताया ✉</string>
+
+    <string name="sms_missed">⚠ खुराक छूट गई: %1$s ने %2$s (%3$s) %4$s बजे नहीं ली और जवाब नहीं दिया। कृपया ध्यान दें। (MediRemind)</string>
+    <string name="sms_skip">खुराक छोड़ी: %1$s ने %2$s (%3$s) %4$s बजे छोड़ दी। (MediRemind)</string>
+    <string name="sms_sos">🆘 SOS: %1$s को तुरंत मदद चाहिए। कृपया तुरंत कॉल करें। (MediRemind)</string>
+
+    <string name="cancel">रद्द करें</string>
+    <string name="ok">ठीक है</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+
+    <string-array name="meals">
+        <item>@string/meal_fixed</item>
+        <item>@string/meal_breakfast</item>
+        <item>@string/meal_lunch</item>
+        <item>@string/meal_snack</item>
+        <item>@string/meal_dinner</item>
+    </string-array>
+
+    <string-array name="offsets">
+        <item>@string/off_at_meal</item>
+        <item>@string/off_before_30</item>
+        <item>@string/off_before_15</item>
+        <item>@string/off_after_15</item>
+        <item>@string/off_after_30</item>
+        <item>@string/off_after_1h</item>
+    </string-array>
+
+    <string-array name="grace_options">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+</resources>

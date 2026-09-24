@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1B7F5A</color>
+    <color name="primary_dark">#12603F</color>
+    <color name="primary_light">#D7F2E7</color>
+    <color name="background">#F4F6F8</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#1A1C1E</color>
+    <color name="taken_green">#1B7F5A</color>
+    <color name="taken_bg">#D7F2E7</color>
+    <color name="missed_red">#C62828</color>
+    <color name="missed_bg">#FDE0E0</color>
+    <color name="pending_amber">#B26A00</color>
+    <color name="pending_bg">#FFF0D6</color>
+    <color name="sos_red">#D32F2F</color>
+    <color name="lock_bg">#0E1B16</color>
+    <color name="lock_surface">#16291F</color>
+    <color name="ic_launcher_bg">#1B7F5A</color>
+</resources>

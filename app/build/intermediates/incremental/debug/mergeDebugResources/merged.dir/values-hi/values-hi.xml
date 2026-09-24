@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="grace_options">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="meals">
+        <item>@string/meal_fixed</item>
+        <item>@string/meal_breakfast</item>
+        <item>@string/meal_lunch</item>
+        <item>@string/meal_snack</item>
+        <item>@string/meal_dinner</item>
+    </string-array>
+    <string-array name="offsets">
+        <item>@string/off_at_meal</item>
+        <item>@string/off_before_30</item>
+        <item>@string/off_before_15</item>
+        <item>@string/off_after_15</item>
+        <item>@string/off_after_30</item>
+        <item>@string/off_after_1h</item>
+    </string-array>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d नई सूचनाएं</item>
+    <item quantity="other">%d नई सूचनाएं</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"वापस जाएं"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"हो गया"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"कोई ऐप्लिकेशन चुनें"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"बंद"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"चालू"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"खोजें…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"क्‍वेरी हटाएं"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"सर्च क्वेरी"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"बोलकर खोजें"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns2:g id="APPLICATION_NAME">%s</ns2:g> से शेयर करें"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string name="action_snooze">⏰ 10 मिनट</string>
+    <string name="action_took">✅ ले ली</string>
+    <string name="add_title">दवा जोड़ें</string>
+    <string name="alarm_permission_btn">अलार्म की अनुमति दें</string>
+    <string name="alarm_permission_hint">कृपया “अलार्म और रिमाइंडर” की अनुमति दें ताकि दवा कभी देर से न याद दिलाई जाए।</string>
+    <string name="app_name">MediRemind</string>
+    <string name="battery_btn">बैकग्राउंड की अनुमति दें</string>
+    <string name="battery_hint">अलार्म हमेशा बजने के लिए इस ऐप की बैटरी सेविंग बंद करें।</string>
+    <string name="bottomsheet_action_collapse">बॉटम शीट को छोटा करें</string>
+    <string name="bottomsheet_action_expand">बॉटम शीट को बड़ा करें</string>
+    <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="bottomsheet_drag_handle_clicked">खींचकर छोड़ने वाले हैंडल पर दो बार टैप किया गया</string>
+    <string name="bottomsheet_drag_handle_content_description">खींचकर छोड़ने वाला हैंडल</string>
+    <string name="btn_add_medicine">+ दवा जोड़ें</string>
+    <string name="btn_add_time">+ और समय जोड़ें</string>
+    <string name="btn_camera">📷 कैमरा</string>
+    <string name="btn_delete">🗑 यह दवा हटाएँ</string>
+    <string name="btn_gallery">🖼 गैलरी</string>
+    <string name="btn_inform">हाँ, बताएँ</string>
+    <string name="btn_pick_time">🕐 %1$s</string>
+    <string name="btn_report">📊 रिपोर्ट</string>
+    <string name="btn_save">दवा सहेजें</string>
+    <string name="btn_save_settings">सेटिंग्स सहेजें</string>
+    <string name="btn_settings">⚙ सेटिंग्स</string>
+    <string name="btn_sos">🆘 मदद</string>
+    <string name="btn_time_auto">🕐 अपने आप</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="character_counter_content_description">%2$d वर्णों में से %1$d वर्ण दर्ज किए गए</string>
+    <string name="character_counter_overflowed_content_description">अभी %1$d वर्ण हैं जबकि %2$d से ज़्यादा नहीं होने चाहिए</string>
+    <string name="chk_twilio">परिजन को इंटरनेट से SMS भेजें (Twilio)</string>
+    <string name="clear_text_end_icon_content_description">टेक्स्ट मिटाएं</string>
+    <string name="day_line">%1$s — %2$d ली, %3$d छूटी</string>
+    <string name="delete_msg">इसके अलार्म बंद हो जाएँगे।</string>
+    <string name="delete_title">यह दवा हटाएँ?</string>
+    <string name="deleted">दवा हटा दी गई</string>
+    <string name="edit_title">दवा बदलें</string>
+    <string name="empty_no_meds">अभी कोई दवा नहीं है।\nशुरू करने के लिए “+ दवा जोड़ें” दबाएँ।</string>
+    <string name="err_name">कृपया दवा का नाम लिखें</string>
+    <string name="err_phone">कृपया सही नंबर लिखें</string>
+    <string name="err_time">कम से कम एक समय जोड़ें</string>
+    <string name="err_twilio">तीनों Twilio फ़ील्ड भरें, या इसे बंद करें</string>
+    <string name="error_icon_content_description">गड़बड़ी</string>
+    <string name="exposed_dropdown_menu_content_description">ड्रॉपडाउन मेन्यू दिखाएं</string>
+    <string name="friend">मित्र</string>
+    <string name="grace_fmt">%1$d मिनट</string>
+    <string name="greeting">नमस्ते, %1$s</string>
+    <string name="guardian_informed">परिजन को बताया ✉</string>
+    <string name="hint_dose">जैसे 1 गोली, 5 ml</string>
+    <string name="hint_from">Twilio नंबर, जैसे +15551234567</string>
+    <string name="hint_guardian">जैसे 9876543210</string>
+    <string name="hint_med_name">जैसे Metformin, Amlodipine</string>
+    <string name="hint_patient">जैसे रमेश</string>
+    <string name="hint_sid">Twilio Account SID</string>
+    <string name="hint_stock">जैसे 30</string>
+    <string name="hint_token">Twilio Auth Token</string>
+    <string name="icon_content_description">डायलॉग का आइकॉन</string>
+    <string name="item_view_role_description">टैब</string>
+    <string name="lang_en">English</string>
+    <string name="lang_gu">ગુજરાતી (Gujarati)</string>
+    <string name="lang_hi">हिंदी (Hindi)</string>
+    <string name="lang_mr">मराठी (Marathi)</string>
+    <string name="lbl_breakfast_time">नाश्ता</string>
+    <string name="lbl_dinner_time">रात का खाना</string>
+    <string name="lbl_dose">हर बार कितनी</string>
+    <string name="lbl_grace">जवाब न मिले तो इतनी देर बाद परिजन को SMS</string>
+    <string name="lbl_guardian">परिजन का मोबाइल नंबर</string>
+    <string name="lbl_language">ऐप की भाषा</string>
+    <string name="lbl_lunch_time">दोपहर का खाना</string>
+    <string name="lbl_med_name">दवा का नाम</string>
+    <string name="lbl_patient">बुज़ुर्ग का नाम</string>
+    <string name="lbl_photo">दवा की तस्वीर (कैसी दिखती है)</string>
+    <string name="lbl_snack_time">शाम की चाय</string>
+    <string name="lbl_stock">कितनी खुराक बची हैं</string>
+    <string name="lbl_times">याद दिलाने का समय</string>
+    <string name="low_stock">⚠ सिर्फ %1$d बची हैं – जल्दी भरवाएँ!</string>
+    <string name="material_clock_toggle_content_description">AM या PM चुनें</string>
+    <string name="material_hour_24h_suffix">%1$s घंटे</string>
+    <string name="material_hour_selection">घंटा चुनें</string>
+    <string name="material_hour_suffix">%1$s बजे</string>
+    <string name="material_minute_selection">मिनट चुनें</string>
+    <string name="material_minute_suffix">%1$s मिनट</string>
+    <string name="material_timepicker_am">पूर्वाह्न</string>
+    <string name="material_timepicker_clock_mode_description">समय इनपुट के लिए घड़ी मोड पर जाएं.</string>
+    <string name="material_timepicker_hour">घंटा</string>
+    <string name="material_timepicker_minute">मिनट</string>
+    <string name="material_timepicker_pm">अपराह्न</string>
+    <string name="material_timepicker_select_time">समय चुनें</string>
+    <string name="material_timepicker_text_input_mode_description">समय इनपुट के लिए लेख इनपुट मोड पर जाएं.</string>
+    <string name="meal_breakfast">नाश्ता</string>
+    <string name="meal_dinner">रात का खाना</string>
+    <string name="meal_fixed">निश्चित समय</string>
+    <string name="meal_lunch">दोपहर का खाना</string>
+    <string name="meal_snack">शाम की चाय</string>
+    <string name="meal_times_header">भोजन का समय</string>
+    <string name="missed_banner">खुराक छूट गई – परिजन को सूचित किया गया ✉</string>
+    <string name="mtrl_badge_numberless_content_description">नई सूचना</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s हटाएं</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">%1$d से ज़्यादा नई सूचनाएं</string>
+    <string name="mtrl_picker_a11y_next_month">अगले महीने पर जाएं</string>
+    <string name="mtrl_picker_a11y_prev_month">पिछले महीने पर जाएं</string>
+    <string name="mtrl_picker_announce_current_range_selection">शुरू होने की तारीख चुनें: %1$s – खत्म होने की तारीख चुनें: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">फ़िलहाल, यह चुना गया है: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">कोई भी तारीख नहीं चुनी गई</string>
+    <string name="mtrl_picker_cancel">रद्द करें</string>
+    <string name="mtrl_picker_confirm">ठीक है</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">तारीख चुनें</string>
+    <string name="mtrl_picker_date_header_unselected">चुनी गई तारीख</string>
+    <string name="mtrl_picker_day_of_week_column_header">दिनों का कॉलम: %1$s</string>
+    <string name="mtrl_picker_end_date_description">खत्म होने की तारीख %1$s</string>
+    <string name="mtrl_picker_invalid_format">गलत फ़ॉर्मैट.</string>
+    <string name="mtrl_picker_invalid_format_example">उदाहरण: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s का इस्तेमाल करें</string>
+    <string name="mtrl_picker_invalid_range">तारीखों की अमान्य सीमा.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">मौजूदा साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_navigate_to_year_description">साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_out_of_range">चुनी गई तारीख मान्य नहीं है: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">शुरू होने की तारीख – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">रेंज चुनें</string>
+    <string name="mtrl_picker_range_header_unselected">शुरू होने की तारीख – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_save">सेव करें</string>
+    <string name="mtrl_picker_start_date_description">शुरू होने की तारीख %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">खत्म होने की तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">शुरू होने की तारीख</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">आज %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">कैलेंडर के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_day_selection">कैलेंडर के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">टेक्स्ट के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_year_selection">साल के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_timepicker_cancel">रद्द करें</string>
+    <string name="mtrl_timepicker_confirm">ठीक है</string>
+    <string name="no">नहीं</string>
+    <string name="no_history">अभी कोई इतिहास नहीं</string>
+    <string name="notif_alert_desc">खुराक छूट जाने की सूचना</string>
+    <string name="notif_alert_name">छूटी हुई खुराक</string>
+    <string name="notif_body">%1$s • %2$s</string>
+    <string name="notif_channel_desc">दवा लेने का समय बताने के लिए</string>
+    <string name="notif_channel_name">दवा के अलार्म</string>
+    <string name="notif_missed_body">%1$s नहीं ली गई। परिजन को बताया गया ✉</string>
+    <string name="notif_missed_title">खुराक छूट गई</string>
+    <string name="notif_title">%1$s लेने का समय है!</string>
+    <string name="off_after_15">15 मिनट बाद</string>
+    <string name="off_after_1h">1 घंटा बाद</string>
+    <string name="off_after_30">30 मिनट बाद</string>
+    <string name="off_at_meal">भोजन के साथ</string>
+    <string name="off_before_15">15 मिनट पहले</string>
+    <string name="off_before_30">30 मिनट पहले</string>
+    <string name="ok">ठीक है</string>
+    <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string name="rel_after">%2$s के %1$d मिनट बाद</string>
+    <string name="rel_after_1h">%1$s के 1 घंटे बाद</string>
+    <string name="rel_at_meal">%1$s के समय</string>
+    <string name="rel_before">%2$s से %1$d मिनट पहले</string>
+    <string name="rem_skip">❌ मैं नहीं लूँगा/लूँगी</string>
+    <string name="rem_snooze">⏰ 10 मिनट बाद याद दिलाएँ</string>
+    <string name="rem_title">💊 दवा का समय!</string>
+    <string name="rem_took">✅ मैंने ले ली</string>
+    <string name="rem_when">%1$s बजे तय हुआ था</string>
+    <string name="report_overall">ली गई खुराक: %1$d%%</string>
+    <string name="report_title">साप्ताहिक रिपोर्ट</string>
+    <string name="saved">दवा सहेजी गई ✓</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"खोजें"</string>
+    <string name="settings_saved">सेटिंग्स सहेजी गईं ✓</string>
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="skip_dialog_msg">परिजन को SMS चला जाएगा कि यह खुराक छोड़ दी गई।</string>
+    <string name="skip_dialog_title">परिजन को बताएँ?</string>
+    <string name="sms_api_header">SMS सेवा (Twilio – बिना SIM के चलती है)</string>
+    <string name="sms_missed">⚠ खुराक छूट गई: %1$s ने %2$s (%3$s) %4$s बजे नहीं ली और जवाब नहीं दिया। कृपया ध्यान दें। (MediRemind)</string>
+    <string name="sms_skip">खुराक छोड़ी: %1$s ने %2$s (%3$s) %4$s बजे छोड़ दी। (MediRemind)</string>
+    <string name="sms_sos">🆘 SOS: %1$s को तुरंत मदद चाहिए। कृपया तुरंत कॉल करें। (MediRemind)</string>
+    <string name="sos_call">📞 परिजन को कॉल करें</string>
+    <string name="sos_msg">क्या चाहिए?</string>
+    <string name="sos_no_guardian">पहले सेटिंग्स में परिजन का नंबर जोड़ें</string>
+    <string name="sos_sent">SOS संदेश भेजा गया ✓</string>
+    <string name="sos_sms">✉ SOS संदेश भेजें</string>
+    <string name="sos_title">🆘 आपातकालीन मदद</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_missed">छूट गई ✗</string>
+    <string name="status_pending">प्रतीक्षा में…</string>
+    <string name="status_snoozed">थोड़ी देर बाद</string>
+    <string name="status_taken">ले ली ✓</string>
+    <string name="stock_left">बची हुई: %1$d</string>
+    <string name="today_doses">आज की दवाइयाँ</string>
+    <string name="tts_prompt">%1$s! अब %2$s लेने का समय है, %3$s।</string>
+    <string name="tts_thanks">बहुत बढ़िया! दर्ज कर लिया।</string>
+    <string name="week_adherence">पिछले 7 दिनों में ली गई खुराक: %1$d%%</string>
+    <string name="yes">हाँ</string>
+</resources>

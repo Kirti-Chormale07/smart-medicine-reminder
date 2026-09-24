@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MediRemind" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/surface</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="Theme.MediRemind.Lock" parent="Theme.MediRemind">
+        <item name="android:windowBackground">@color/lock_bg</item>
+        <item name="android:statusBarColor">@color/lock_bg</item>
+    </style>
+
+    <style name="BigButton" parent="Widget.Material3.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="FieldLabel" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+
+    <style name="BigField" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

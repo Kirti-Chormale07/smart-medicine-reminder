@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grace_options">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="meals">
+        <item>@string/meal_fixed</item>
+        <item>@string/meal_breakfast</item>
+        <item>@string/meal_lunch</item>
+        <item>@string/meal_snack</item>
+        <item>@string/meal_dinner</item>
+    </string-array>
+    <string-array name="offsets">
+        <item>@string/off_at_meal</item>
+        <item>@string/off_before_30</item>
+        <item>@string/off_before_15</item>
+        <item>@string/off_after_15</item>
+        <item>@string/off_after_30</item>
+        <item>@string/off_after_1h</item>
+    </string-array>
+    <string name="action_snooze">⏰ 10 મિનિટ</string>
+    <string name="action_took">✅ લીધી</string>
+    <string name="add_title">દવા ઉમેરો</string>
+    <string name="alarm_permission_btn">ચોક્કસ અલાર્મની પરવાનગી આપો</string>
+    <string name="alarm_permission_hint">કૃપા કરી “અલાર્મ અને રિમાઇન્ડર”ની પરવાનગી આપો જેથી દવા ક્યારેય મોડી ન યાદ કરાવે.</string>
+    <string name="app_name">MediRemind</string>
+    <string name="battery_btn">બેકગ્રાઉન્ડ પરવાનગી આપો</string>
+    <string name="battery_hint">અલાર્મ હંમેશા વાગે તે માટે આ એપની બેટરી સેવિંગ બંધ કરો.</string>
+    <string name="btn_add_medicine">+ દવા ઉમેરો</string>
+    <string name="btn_add_time">+ વધુ સમય ઉમેરો</string>
+    <string name="btn_camera">📷 કેમેરા</string>
+    <string name="btn_delete">🗑 આ દવા કાઢો</string>
+    <string name="btn_gallery">🖼 ગેલેરી</string>
+    <string name="btn_inform">હા, જાણ કરો</string>
+    <string name="btn_pick_time">🕐 %1$s</string>
+    <string name="btn_report">📊 અહેવાલ</string>
+    <string name="btn_save">દવા સાચવો</string>
+    <string name="btn_save_settings">સેટિંગ્સ સાચવો</string>
+    <string name="btn_settings">⚙ સેટિંગ્સ</string>
+    <string name="btn_sos">🆘 મદદ</string>
+    <string name="btn_time_auto">🕐 આપોઆપ</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="chk_twilio">સંભાળનારને ઇંટરનેટથી SMS મોકલો (Twilio)</string>
+    <string name="day_line">%1$s — %2$d લીધી, %3$d ચૂકી</string>
+    <string name="delete_msg">તેના અલાર્મ બંધ થઈ જશે.</string>
+    <string name="delete_title">આ દવા કાઢવી છે?</string>
+    <string name="deleted">દવા કાઢી નાખી</string>
+    <string name="edit_title">દવા બદલો</string>
+    <string name="empty_no_meds">હજી કોઈ દવા નથી.\nશરૂ કરવા માટે “+ દવા ઉમેરો” દબાવો.</string>
+    <string name="err_name">કૃપા કરી દવાનું નામ લખો</string>
+    <string name="err_phone">કૃપા કરી સાચો નંબર લખો</string>
+    <string name="err_time">ઓછામાં ઓછો એક સમય ઉમેરો</string>
+    <string name="err_twilio">ત્રણેય Twilio ફીલ્ડ ભરો, અથવા તેને બંધ કરો</string>
+    <string name="friend">મિત્ર</string>
+    <string name="grace_fmt">%1$d મિનિટ</string>
+    <string name="greeting">નમસ્તે, %1$s</string>
+    <string name="guardian_informed">સંભાળનારને જાણ કરાઈ ✉</string>
+    <string name="hint_dose">દા.ત. 1 ગોળી, 5 ml</string>
+    <string name="hint_from">Twilio નંબર, દા.ત. +15551234567</string>
+    <string name="hint_guardian">દા.ત. 9876543210</string>
+    <string name="hint_med_name">દા.ત. Metformin, Amlodipine</string>
+    <string name="hint_patient">દા.ત. રમેશ</string>
+    <string name="hint_sid">Twilio Account SID</string>
+    <string name="hint_stock">દા.ત. 30</string>
+    <string name="hint_token">Twilio Auth Token</string>
+    <string name="lang_en">English</string>
+    <string name="lang_gu">ગુજરાતી (Gujarati)</string>
+    <string name="lang_hi">हिंदी (Hindi)</string>
+    <string name="lang_mr">मराठी (Marathi)</string>
+    <string name="lbl_breakfast_time">નાસ્તો</string>
+    <string name="lbl_dinner_time">રાત્રિનું જમવાનું</string>
+    <string name="lbl_dose">દરેક વાર કેટલી</string>
+    <string name="lbl_grace">જવાબ ન મળે તો આટલા સમય પછી સંભાળનારને SMS</string>
+    <string name="lbl_guardian">સંભાળનારનો મોબાઇલ નંબર</string>
+    <string name="lbl_language">એપની ભાષા</string>
+    <string name="lbl_lunch_time">બપોરનું જમવાનું</string>
+    <string name="lbl_med_name">દવાનું નામ</string>
+    <string name="lbl_patient">વૃદ્ધનું નામ</string>
+    <string name="lbl_photo">દવાનો ફોટો (કેવી દેખાય છે)</string>
+    <string name="lbl_snack_time">સાંજની ચા</string>
+    <string name="lbl_stock">કેટલી ખુરાક બાકી છે</string>
+    <string name="lbl_times">યાદ કરાવવાનો સમય</string>
+    <string name="low_stock">⚠ માત્ર %1$d બાકી – જલ્દી ભરાવો!</string>
+    <string name="meal_breakfast">નાસ્તો</string>
+    <string name="meal_dinner">રાત્રિનું જમવાનું</string>
+    <string name="meal_fixed">નિશ્ચિત સમય</string>
+    <string name="meal_lunch">બપોરનું જમવાનું</string>
+    <string name="meal_snack">સાંજની ચા</string>
+    <string name="meal_times_header">જમવાનો સમય</string>
+    <string name="missed_banner">ખુરાક ચૂકી – સંભાળનારને જાણ કરાઈ ✉</string>
+    <string name="no">ના</string>
+    <string name="no_history">હજી ઇતિહાસ નથી</string>
+    <string name="notif_alert_desc">ખુરાક ચૂકી હોવાની જાણ</string>
+    <string name="notif_alert_name">ચૂકેલી ખુરાક</string>
+    <string name="notif_body">%1$s • %2$s</string>
+    <string name="notif_channel_desc">દવા લેવાનો સમય બતાવવા માટે</string>
+    <string name="notif_channel_name">દવાના અલાર્મ</string>
+    <string name="notif_missed_body">%1$s લીધી નથી. સંભાળનારને જાણ કરાઈ ✉</string>
+    <string name="notif_missed_title">ખુરાક ચૂકી</string>
+    <string name="notif_title">%1$s લેવાનો સમય!</string>
+    <string name="off_after_15">15 મિનિટ પછી</string>
+    <string name="off_after_1h">1 કલાક પછી</string>
+    <string name="off_after_30">30 મિનિટ પછી</string>
+    <string name="off_at_meal">જમવા સાથે</string>
+    <string name="off_before_15">15 મિનિટ પહેલાં</string>
+    <string name="off_before_30">30 મિનિટ પહેલાં</string>
+    <string name="ok">ઠીક છે</string>
+    <string name="rel_after">%2$s પછી %1$d મિનિટ</string>
+    <string name="rel_after_1h">%1$s પછી 1 કલાક</string>
+    <string name="rel_at_meal">%1$s નો સમય</string>
+    <string name="rel_before">%2$s પહેલાં %1$d મિનિટ</string>
+    <string name="rem_skip">❌ હું નહીં લઉં</string>
+    <string name="rem_snooze">⏰ 10 મિનિટ પછી ફરી યાદ કરાવો</string>
+    <string name="rem_title">💊 દવા લેવાનો સમય!</string>
+    <string name="rem_took">✅ મેં લીધી</string>
+    <string name="rem_when">%1$s વાગે નક્કી થયું હતું</string>
+    <string name="report_overall">લીધેલી ખુરાક: %1$d%%</string>
+    <string name="report_title">સાપ્તાહિક અહેવાલ</string>
+    <string name="saved">દવા સાચવાઈ ✓</string>
+    <string name="settings_saved">સેટિંગ્સ સાચવાઈ ✓</string>
+    <string name="settings_title">સેટિંગ્સ</string>
+    <string name="skip_dialog_msg">તમારા સંભાળનારને SMS જશે કે આ ખુરાક છોડી દીધી.</string>
+    <string name="skip_dialog_title">સંભાળનારને જાણ કરવી?</string>
+    <string name="sms_api_header">SMS સેવા (Twilio – વિના SIM ચાલે છે)</string>
+    <string name="sms_missed">⚠ ખુરાક ચૂકી: %1$s એ %2$s (%3$s) %4$s વાગે લીધી નથી અને જવાબ આપ્યો નથી. કૃપા કરી તપાસ કરો. (MediRemind)</string>
+    <string name="sms_skip">ખુરાક છોડી: %1$s એ %2$s (%3$s) %4$s વાગે છોડી દીધી. (MediRemind)</string>
+    <string name="sms_sos">🆘 SOS: %1$s ને તાત્કાલિક મદદ જોઈએ છે. કૃપા કરી તરત કોલ કરો. (MediRemind)</string>
+    <string name="sos_call">📞 સંભાળનારને કોલ કરો</string>
+    <string name="sos_msg">શું જોઈએ છે?</string>
+    <string name="sos_no_guardian">પહેલાં સેટિંગ્સમાં સંભાળનારનો નંબર ઉમેરો</string>
+    <string name="sos_sent">SOS સંદેશ મોકલાયો ✓</string>
+    <string name="sos_sms">✉ SOS સંદેશ મોકલો</string>
+    <string name="sos_title">🆘 આણીબાણી મદદ</string>
+    <string name="status_missed">ચૂકી ગઈ ✗</string>
+    <string name="status_pending">રાહ જોઈ રહ્યા છીએ…</string>
+    <string name="status_snoozed">થોડી વાર પછી</string>
+    <string name="status_taken">લીધી ✓</string>
+    <string name="stock_left">બાકી: %1$d</string>
+    <string name="today_doses">આજની દવાઓ</string>
+    <string name="tts_prompt">%1$s! હવે %2$s લેવાનો સમય થયો છે, %3$s.</string>
+    <string name="tts_thanks">બહુ સરસ! નોંધી લીધી.</string>
+    <string name="week_adherence">છેલ્લા 7 દિવસમાં લીધેલી ખુરાક: %1$d%%</string>
+    <string name="yes">હા</string>
+</resources>
